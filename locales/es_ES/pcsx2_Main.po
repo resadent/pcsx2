@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/PCSX2/pcsx2/issues\n"
 "POT-Creation-Date: 2020-01-15 22:32+1300\n"
 "PO-Revision-Date: 2017-11-13 23:27+0100\n"
-"Last-Translator: Víctor González Fraile <victor.gonfraile@hotmail.es>\n"
+"Last-Translator: Eduardo Serralvo Gil <eduagdoserr@gmail.es>\n"
 "Language-Team: \n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
@@ -206,19 +206,19 @@ msgstr "panel"
 
 #: pcsx2/Recording/NewRecordingFrame.cpp:29
 msgid "File Path"
-msgstr ""
+msgstr "Ruta de Archivo"
 
 #: pcsx2/Recording/NewRecordingFrame.cpp:30
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: pcsx2/Recording/NewRecordingFrame.cpp:31
 msgid "Record From"
-msgstr ""
+msgstr "Grabar desde"
 
 #: pcsx2/Recording/NewRecordingFrame.cpp:41
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #: pcsx2/Recording/NewRecordingFrame.cpp:42 pcsx2/gui/AppInit.cpp:742
 msgid "Cancel"
@@ -256,15 +256,15 @@ msgstr "Muestra los registros de depuración DECI2 (procesador EE)."
 
 #: pcsx2/SourceLog.cpp:121
 msgid "Shows strings printed to the system output stream."
-msgstr ""
+msgstr "Muestra las cadenas impresas en "
 
 #: pcsx2/SourceLog.cpp:127
 msgid "Shows recording related logs and information"
-msgstr ""
+msgstr "Muestra los logs y la información referente a la grabación"
 
 #: pcsx2/SourceLog.cpp:132
 msgid "Shows detailed controller input values for port 1, every frame"
-msgstr ""
+msgstr "Muestra los valores de entrada del controlador para el puerto 1, cada cuadro"
 
 #: pcsx2/SourceLog.cpp:168
 msgid "SYSCALL and DECI2 activity."
@@ -540,6 +540,7 @@ msgstr "Desactiva el arranque rápido"
 msgid ""
 "passes the specified space-delimited string of launch arguments to the game"
 msgstr ""
+"pasa la cadena de argumentos de inicio separados por espacios al juego"
 
 #: pcsx2/gui/AppInit.cpp:263
 msgid "changes the configuration file path"
@@ -717,12 +718,13 @@ msgstr "Ejecutando máquina virtual de PS2..."
 
 #: pcsx2/gui/AppRes.cpp:46
 msgid "Always ask when booting"
-msgstr ""
+msgstr "Siempre preguntar al inicio"
 
 #: pcsx2/gui/AppRes.cpp:46
 msgid ""
 "Manually select an ISO upon boot ignoring the selection from recent ISO list."
 msgstr ""
+"Seleccionar manualmente una ISO al inicio ignorando la selección de la lista reciente de ISOs."
 
 #: pcsx2/gui/AppRes.cpp:48
 msgid "Browse for an ISO that is not in your recent history."
@@ -923,19 +925,19 @@ msgstr "Acerca de %s"
 
 #: pcsx2/gui/Dialogs/AboutBoxDialog.cpp:54
 msgid "Website"
-msgstr ""
+msgstr "Sitio web"
 
 #: pcsx2/gui/Dialogs/AboutBoxDialog.cpp:56
 msgid "Support Forums"
-msgstr ""
+msgstr "Foro de soporte"
 
 #: pcsx2/gui/Dialogs/AboutBoxDialog.cpp:58
 msgid "GitHub Repository"
-msgstr ""
+msgstr "Repositorio GitHub"
 
 #: pcsx2/gui/Dialogs/AboutBoxDialog.cpp:60
 msgid "License"
-msgstr ""
+msgstr "Licencia"
 
 #: pcsx2/gui/Dialogs/AboutBoxDialog.cpp:62
 #, fuzzy
@@ -946,6 +948,7 @@ msgstr "Emulador de PlayStation 2"
 msgid ""
 "Big thanks to everyone who contributed to the project throughout the years."
 msgstr ""
+"Muchísimas gracias a todos los que han contribuido al proyecto todos estos años."
 
 #: pcsx2/gui/Dialogs/AboutBoxDialog.cpp:66
 #, fuzzy
@@ -1195,7 +1198,7 @@ msgstr ""
 
 #: pcsx2/gui/Dialogs/CreateMemoryCardDialog.cpp:259
 msgid "128 KiB (PSX)"
-msgstr ""
+msgstr "128 KiB (PSX)"
 
 #: pcsx2/gui/Dialogs/CreateMemoryCardDialog.cpp:259
 #, fuzzy
@@ -1211,6 +1214,8 @@ msgid ""
 "This memory card is required by PSX games. It is not compatible with PS2 "
 "games."
 msgstr ""
+"Esta tarjeta de memoria es requerida por los juegos de PSX. No es compatible con"
+"los juegos de PS2."
 
 #: pcsx2/gui/Dialogs/FirstTimeWizard.cpp:48
 #, c-format
@@ -1456,7 +1461,7 @@ msgstr "Copia de seguridad"
 
 #: pcsx2/gui/MainFrame.cpp:52
 msgid "File..."
-msgstr ""
+msgstr "Archivo..."
 
 #: pcsx2/gui/MainFrame.cpp:349
 msgid "&Show Console"
@@ -1488,11 +1493,11 @@ msgstr "&Depuración"
 
 #: pcsx2/gui/MainFrame.cpp:369
 msgid "&Capture"
-msgstr ""
+msgstr "&Capturar"
 
 #: pcsx2/gui/MainFrame.cpp:377 pcsx2/gui/MainMenuClicks.cpp:516
 msgid "&Recording"
-msgstr ""
+msgstr "&Grabando"
 
 #: pcsx2/gui/MainFrame.cpp:441 pcsx2/gui/MainFrame.cpp:443
 #: pcsx2/gui/MainFrame.cpp:449
@@ -1535,15 +1540,15 @@ msgstr "Activar &trampas"
 
 #: pcsx2/gui/MainFrame.cpp:469
 msgid "Enable &Widescreen Patches"
-msgstr "Activar parches para &imagen panorámica"
+msgstr "Activar parches para imagen &panorámica"
 
 #: pcsx2/gui/MainFrame.cpp:470
 msgid "Enabling Widescreen Patches may occasionally cause issues."
-msgstr ""
+msgstr "Habilitar los parches de imagen panorámica puede causar problemas."
 
 #: pcsx2/gui/MainFrame.cpp:473
 msgid "Enable &Recording Tools"
-msgstr ""
+msgstr "Habilitar herramientas de &Grabación"
 
 #: pcsx2/gui/MainFrame.cpp:478
 msgid "Enable &Host Filesystem"
@@ -1667,11 +1672,11 @@ msgstr "&Registros..."
 
 #: pcsx2/gui/MainFrame.cpp:556
 msgid "Create &Blockdump"
-msgstr ""
+msgstr "Crear &Copia de bloque"
 
 #: pcsx2/gui/MainFrame.cpp:556
 msgid "Creates a block dump for debugging purposes."
-msgstr ""
+msgstr "Crea una copia de bloque para depuración."
 
 #: pcsx2/gui/MainFrame.cpp:560
 #, fuzzy
@@ -1680,11 +1685,11 @@ msgstr "&Vídeo (GS)"
 
 #: pcsx2/gui/MainFrame.cpp:561
 msgid "Start Recording"
-msgstr ""
+msgstr "Iniciar grabación"
 
 #: pcsx2/gui/MainFrame.cpp:562
 msgid "Stop Recording"
-msgstr ""
+msgstr "Terminar grabación"
 
 #: pcsx2/gui/MainFrame.cpp:564
 #, fuzzy
@@ -1693,23 +1698,23 @@ msgstr "Capturas de pantalla:"
 
 #: pcsx2/gui/MainFrame.cpp:569
 msgid "New"
-msgstr ""
+msgstr "Nuevo"
 
 #: pcsx2/gui/MainFrame.cpp:570
 msgid "Stop"
-msgstr ""
+msgstr "Parar"
 
 #: pcsx2/gui/MainFrame.cpp:571
 msgid "Play"
-msgstr ""
+msgstr "Jugar"
 
 #: pcsx2/gui/MainFrame.cpp:573
 msgid "Virtual Pad (Port 1)"
-msgstr ""
+msgstr "Pad Virtual (Puerto 1)"
 
 #: pcsx2/gui/MainFrame.cpp:574
 msgid "Virtual Pad (Port 2)"
-msgstr ""
+msgstr "Pad Virtual (Puerto 2)"
 
 #: pcsx2/gui/MainFrame.cpp:649
 msgid "Paus&e"
@@ -1898,13 +1903,15 @@ msgstr ""
 
 #: pcsx2/gui/MainMenuClicks.cpp:419
 msgid "Confirm clearing ISO list"
-msgstr ""
+msgstr "Confirma que quieres borrar la lista de ISOs"
 
 #: pcsx2/gui/MainMenuClicks.cpp:420
 msgid ""
 "This will clear the ISO list. If an ISO is running it will remain in the "
 "list. Continue?"
 msgstr ""
+"Esto borrará la lista de ISOs. Si una ISO está funcionando se mantendrá en "
+"la lista. ¿Continuar?"
 
 #: pcsx2/gui/MainMenuClicks.cpp:504
 msgid ""
@@ -1916,8 +1923,15 @@ msgid ""
 "These tools are provided as-is and should be enabled under your own "
 "discretion."
 msgstr ""
+"Por favor ten en cuenta que las características grabación de entradas de "
+"PCSX2 está todavía incompleta.\n"
+"Como tal, puede haber bugs, problemas de rendimiento e inestabilidad con "
+"ciertos juegos.\n"
+"\n"
+"Esas herramientas son dadas así y deben ser habilitadas a tu propia "
+"discreción."
 
-#: pcsx2/gui/MainMenuClicks.cpp:589
+#:pcsx2/gui/MainMenuClicks.cpp:589
 #, fuzzy
 msgid "Load State"
 msgstr "Carga rápida"
@@ -2668,7 +2682,7 @@ msgstr "¡Hacer este idioma mi predeterminado ahora mismo!"
 
 #: pcsx2/gui/Panels/PathsPanel.cpp:38
 msgid "Cheats:"
-msgstr ""
+msgstr "Trampas:"
 
 #: pcsx2/gui/Panels/PathsPanel.cpp:39
 #, fuzzy
@@ -2931,7 +2945,7 @@ msgstr "Limitador de fotogramas"
 
 #: pcsx2/gui/RecentIsoList.cpp:139
 msgid "Clear ISO list"
-msgstr ""
+msgstr "Limpiar lista de ISOs"
 
 #: pcsx2/gui/Saveslots.h:96
 #, fuzzy, c-format
@@ -2946,12 +2960,12 @@ msgstr "Hueco %d"
 #: pcsx2/gui/Saveslots.h:100
 #, c-format
 msgid "Slot %d - Unknown Time"
-msgstr ""
+msgstr "Slot %d - Tiempo Desconocido"
 
 #: pcsx2/gui/Saveslots.h:113
 #, c-format
 msgid "Write time is %s %s."
-msgstr ""
+msgstr "Tiempo de escritura es %s %s."
 
 #: pcsx2/gui/SysState.cpp:291 pcsx2/gui/SysState.cpp:298
 msgid "Cannot load this savestate. The state is an unsupported version."
