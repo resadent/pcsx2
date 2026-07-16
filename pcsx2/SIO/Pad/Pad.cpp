@@ -239,6 +239,9 @@ void Pad::SetDefaultHotkeyConfig(SettingsInterface& si)
 	si.SetStringValue("Hotkeys", "ZoomOut", "Keyboard/Control & Keyboard/Minus");
 	// Missing hotkey for resetting zoom back to 100 with Keyboard/Control & Keyboard/Asterisk
 
+	// PCSX2 Controller Settings - Hotkeys - Audio
+	si.SetStringValue("Hotkeys", "Toggle Mute", "Keyboard/Control & Keyboard/M");
+
 	// PCSX2 Controller Settings - Hotkeys - Input Recording
 	si.SetStringValue("Hotkeys", "InputRecToggleMode", "Keyboard/Shift & Keyboard/R");
 
@@ -252,8 +255,8 @@ void Pad::SetDefaultHotkeyConfig(SettingsInterface& si)
 	//	si.SetStringValue("Hotkeys", "DecreaseSpeed", "Keyboard"); TBD
 	//  si.SetStringValue("Hotkeys", "FrameAdvance", "Keyboard"); TBD
 	//	si.SetStringValue("Hotkeys", "IncreaseSpeed", "Keyboard"); TBD
-	//  si.SetStringValue("Hotkeys", "ResetVM", "Keyboard"); TBD
-	//  si.SetStringValue("Hotkeys", "ShutdownVM", "Keyboard"); TBD
+	si.SetStringValue("Hotkeys", "ResetVM", "Keyboard/Control & Keyboard/R");
+	si.SetStringValue("Hotkeys", "ShutdownVM", "Keyboard/Control & Keyboard/S");
 	si.SetStringValue("Hotkeys", "OpenPauseMenu", "Keyboard/Escape");
 	si.SetStringValue("Hotkeys", "ToggleFrameLimit", "Keyboard/F4");
 	si.SetStringValue("Hotkeys", "TogglePause", "Keyboard/Space");
